@@ -17,6 +17,9 @@
  cd cld-app-streamlit
  pip install -r requirements.txt
  streamlit run app.py
+ 
+ pip uninstall opencv-python-headless==4.5.5.64
+ pip install opencv-python-headless==4.1.2.30
  ```
  
 ## Reproducibility:
