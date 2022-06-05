@@ -17,7 +17,10 @@
  cd cld-app-streamlit
  pip install -r requirements.txt
  streamlit run app.py
- 
+ ```
+ ### Optional: 
+ In case there are errors related to incompatibility between different versions of opencv-python and opencv-python-headless you may need to downgrade to a lower version as follows:
+ ```
  pip uninstall opencv-python-headless==4.5.5.64
  pip install opencv-python-headless==4.1.2.30
  ```
